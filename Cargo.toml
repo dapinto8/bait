@@ -1,0 +1,15 @@
+[package]
+name = "bait"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+chrono = "0.4"
+rand = "0.8"
+
+[dependencies.windows]
+version = "0.58"
+features = [
+    "Win32_UI_WindowsAndMessaging",
+    "Win32_Foundation",
+]
